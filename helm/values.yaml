@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: ""
+  tag: ""
+
+service:
+  type: NodePort
+  port: 3000
+  nodePort: 30090
